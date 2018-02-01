@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 IMG_SIZE_BYTES = 784
 NUM_TRAINING_SAMPLES = 6000
 
+
 # load MNIST images and image labels
 def load_data():
     # load the labels
@@ -22,7 +23,6 @@ def load_data():
 
     return data, labels
 
-
 # load data from disk
 # imgs, lbls = load_data()
 
@@ -30,4 +30,4 @@ def load_data():
 #     def __init__(self, hidden_layers = 100, max_iter = 100 ):
 #        self.
 
-# TODO: implement 
+# TODO: implement
